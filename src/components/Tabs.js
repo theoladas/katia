@@ -7,7 +7,6 @@ const TabContainer = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: var(--color-white);
-  /* background-color: rgba(55, 545, 54, 0); */
   border: var(--border-tab-container);
   border-radius: var(--border-radius-primary);
   box-shadow: var(--box-shadow-components);

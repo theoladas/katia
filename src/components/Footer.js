@@ -287,7 +287,7 @@ const Footer = () => {
               <LinkStyled to="/katia/waxing">{t("apotrixosi")}</LinkStyled>
             </FooterLi>
             <FooterLi>
-              <LinkStyled href="/katia/facial">
+              <LinkStyled to="/katia/facial">
                 {t("peripoihshProsopou")}
               </LinkStyled>
             </FooterLi>

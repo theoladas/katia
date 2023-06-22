@@ -146,6 +146,7 @@ const FormContainerStyled = styled(FormContainer)`
   margin-right: -5rem;
   @media (max-width: 768px) {
     margin-right: 0rem;
+    max-width: 100%;
   }
 `;
 
