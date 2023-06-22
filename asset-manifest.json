@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/katia/static/css/main.908b4a16.css",
+    "main.js": "/katia/static/js/main.0b9c511f.js",
+    "static/js/787.3c526432.chunk.js": "/katia/static/js/787.3c526432.chunk.js",
+    "static/media/makeup.jpg": "/katia/static/media/makeup.e75ad769ac6114d1d10b.jpg",
+    "static/media/magazi.png": "/katia/static/media/magazi.93e47b06f8195f103039.png",
+    "static/media/homepage-banner.png": "/katia/static/media/homepage-banner.0761ced709ded45a94aa.png",
+    "static/media/manicure.jpg": "/katia/static/media/manicure.033aa35e9671e0098cdc.jpg",
+    "static/media/lashlift.jpg": "/katia/static/media/lashlift.32d0ede7a7ac86237e5f.jpg",
+    "static/media/waxing.jpg": "/katia/static/media/waxing.f18203ed697aa35662c7.jpg",
+    "static/media/facial.jpg": "/katia/static/media/facial.5af04c0aa4c358d22bd6.jpg",
+    "static/media/logo.png": "/katia/static/media/logo.82c0b3be09558b14e193.png",
+    "static/media/daniel.ttf": "/katia/static/media/daniel.cbea9f53865f7d46af2c.ttf",
+    "index.html": "/katia/index.html",
+    "static/media/phone.svg": "/katia/static/media/phone.296353373f91d195d849709c850aab12.svg",
+    "static/media/location.svg": "/katia/static/media/location.4a4b98145720659694b923d8ec078705.svg",
+    "static/media/email.svg": "/katia/static/media/email.66c0a2ebf194f55064910d24f67277e0.svg",
+    "static/media/getFetch.cjs": "/katia/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.908b4a16.css.map": "/katia/static/css/main.908b4a16.css.map",
+    "main.0b9c511f.js.map": "/katia/static/js/main.0b9c511f.js.map",
+    "787.3c526432.chunk.js.map": "/katia/static/js/787.3c526432.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.908b4a16.css",
+    "static/js/main.0b9c511f.js"
+  ]
+}
