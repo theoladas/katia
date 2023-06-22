@@ -96,7 +96,7 @@ const Gallery = () => {
   const images = galleryData.images;
 
   return (
-    <HeroSectionStyled>
+    <HeroSection>
       <HeroTitleStyled>Gallery</HeroTitleStyled>
       <GalleryWrapper>
         <Carousel
@@ -116,7 +116,7 @@ const Gallery = () => {
           })}
         </Carousel>
       </GalleryWrapper>
-    </HeroSectionStyled>
+    </HeroSection>
   );
 };
 

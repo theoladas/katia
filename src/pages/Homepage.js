@@ -86,11 +86,11 @@ const Homepage = () => {
   };
 
   const cards = [
-    { image: nails, text: "peripoihshAkron", href: "/manicure-pedicure" },
-    { image: makeup, text: "makigiaz", href: "/make-up" },
-    { image: waxing, text: "apotrixosi", href: "/waxing" },
-    { image: facial, text: "peripoihshProsopou", href: "/facial" },
-    { image: lashlift, text: "lashlift", href: "/lashlift" },
+    { image: nails, text: "peripoihshAkron", href: "/katia/manicure-pedicure" },
+    { image: makeup, text: "makigiaz", href: "/katia/make-up" },
+    { image: waxing, text: "apotrixosi", href: "/katia/waxing" },
+    { image: facial, text: "peripoihshProsopou", href: "/katia/facial" },
+    { image: lashlift, text: "lashlift", href: "/katia/lashlift" },
   ];
 
   useEffect(() => {
