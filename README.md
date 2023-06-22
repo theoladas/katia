@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Katia Lada | Beauty & Nail Salon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Beauty & Nail Salon business website for Katia Lada. 
+
 
 ## Available Scripts
 
