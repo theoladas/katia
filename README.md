@@ -2,6 +2,7 @@
 
 A Beauty & Nail Salon business website for Katia Lada. 
 
+![Screenshot 2023-06-22 at 17 10 17](https://github.com/theoladas/katia/assets/67963370/35118f05-c8aa-42d4-8d86-4228436b7b52)
 
 ## Available Scripts
 
