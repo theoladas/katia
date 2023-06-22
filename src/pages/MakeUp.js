@@ -39,7 +39,7 @@ const MakeUp = () => {
       id: 2,
       title: t("nifikoMakigiaz"),
       description: t("nigikoMakigiazPerigrafi"),
-      image: "/katia/makeup-bride.jpg",
+      image: "/katia/img/makeup-bride.jpg",
     },
   ];
   const [selectedTab, setSelectedTab] = useState(tabData[0].id);

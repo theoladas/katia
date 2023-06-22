@@ -170,6 +170,9 @@ export const HeroSection = styled.main`
 export const HeroContent = styled.div`
   max-width: 100%;
   padding-top: 2rem;
+  @media (max-width: 500px) {
+    padding-top: 1rem;
+  }
 `;
 
 export const HeroTitle = styled(motion.div)`
@@ -184,6 +187,11 @@ export const HeroTitle = styled(motion.div)`
   }
   @media (max-width: 768px) {
     text-align: center;
+  }
+  @media (max-width: 500px) {
+    margin-top: 1rem;
+    font-size: 2.3rem;
+    line-height: 45px;
   }
 `;
 

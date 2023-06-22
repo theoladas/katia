@@ -7,7 +7,6 @@ import logo from "../img/logo.png";
 import {
   faPhone,
   faEnvelope,
-  faLocationDot,
   faStar,
   faImages,
   faCaretDown,

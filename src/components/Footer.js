@@ -29,6 +29,7 @@ const FooterStyled = styled.footer`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
   @media (max-width: 768px) {
     padding-top: 1rem;
   }
@@ -176,6 +177,9 @@ const FooterCardAttribute = styled.ul`
   }
   @media (max-width: 768px) {
     display: flex;
+  }
+  @media (max-width: 320px) {
+    max-width: 80%;
   }
 `;
 
