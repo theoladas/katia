@@ -242,11 +242,8 @@ const Footer = () => {
         <FooterCard>
           <ul>
             <FooterLi>
-              <LinkStyled to="/gallery">Gallery</LinkStyled>
+              <LinkStyled to="/katia/gallery">Gallery</LinkStyled>
             </FooterLi>
-            {/* <FooterLi>
-              <LinkStyled to="/our-store">{t("oXorosMas")}</LinkStyled>
-            </FooterLi> */}
             <FooterLi>
               <FlexStyled>
                 <FooterLinkInstagram>
@@ -275,25 +272,29 @@ const Footer = () => {
             <FooterLinkNoClickable>{t("ipiresies")}</FooterLinkNoClickable>
             <hr></hr>
             <FooterLi>
-              <LinkStyled to="/manicure-pedicure">{t("manikiour")}</LinkStyled>
+              <LinkStyled to="/katia/manicure-pedicure">
+                {t("manikiour")}
+              </LinkStyled>
             </FooterLi>
             <FooterLi>
-              <LinkStyled to="/make-up">{t("makigiaz")}</LinkStyled>
+              <LinkStyled to="/katia/make-up">{t("makigiaz")}</LinkStyled>
             </FooterLi>
             <FooterLi>
-              <LinkStyled to="/waxing">{t("apotrixosi")}</LinkStyled>
+              <LinkStyled to="/katia/waxing">{t("apotrixosi")}</LinkStyled>
             </FooterLi>
             <FooterLi>
-              <LinkStyled href="/facial">{t("peripoihshProsopou")}</LinkStyled>
+              <LinkStyled href="/katia/facial">
+                {t("peripoihshProsopou")}
+              </LinkStyled>
             </FooterLi>
             <FooterLi>
-              <LinkStyled to="/lashlift">{t("lashlift")}</LinkStyled>
+              <LinkStyled to="/katia/lashlift">{t("lashlift")}</LinkStyled>
             </FooterLi>
           </ul>
         </FooterCard>
         <FooterCard>
           <ul>
-            <LinkStyled to="/contact">{t("epikoinonia")}</LinkStyled>
+            <LinkStyled to="/katia/contact">{t("epikoinonia")}</LinkStyled>
             <hr></hr>
             <FooterLi>
               <FontAwesomeIconStyled icon={faHouse} />

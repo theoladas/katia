@@ -9,6 +9,7 @@ import {
   FlexRowHeroContainer,
 } from "../components/GlobalStyle.js";
 import { PageStyled } from "./Facial.js";
+// import manicure from "../img/manicure.jpg";
 import manicure from "../img/manicure.jpg";
 
 const Manicure = () => {
@@ -33,13 +34,13 @@ const Manicure = () => {
       id: 1,
       title: t("manikiour"),
       description: t("manikiourPerigrafi"),
-      image: "/img/manicure.jpg",
+      image: "./img/manicure.jpg",
     },
     {
       id: 2,
       title: t("pentikiour"),
       description: t("pentikiourPerigrafi"),
-      image: "/img/pedicure.jpg",
+      image: "./img/pedicure.jpg",
     },
   ];
   const [selectedTab, setSelectedTab] = useState(tabData[0].id);

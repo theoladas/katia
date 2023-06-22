@@ -25,7 +25,7 @@ const MakeUp = () => {
 
   const [ref, inView] = useInView({
     triggerOnce: false,
-    threshold: 0.1, // Percentage of the element that is in view before the callback triggers
+    threshold: 0.1,
   });
 
   const tabData = [
@@ -33,13 +33,13 @@ const MakeUp = () => {
       id: 1,
       title: "Standard",
       description: t("makigiazPerigrafi"),
-      image: "/img/makeup.jpg",
+      image: "/katia/img/makeup.jpg",
     },
     {
       id: 2,
       title: t("nifikoMakigiaz"),
       description: t("nigikoMakigiazPerigrafi"),
-      image: "/img/makeup-bride.jpg",
+      image: "/katia/makeup-bride.jpg",
     },
   ];
   const [selectedTab, setSelectedTab] = useState(tabData[0].id);

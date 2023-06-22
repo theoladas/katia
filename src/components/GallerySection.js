@@ -98,7 +98,9 @@ export const GallerySection = ({ animate }) => {
             <HeroTitle>Gallery</HeroTitle>
             <Paragraph>{t("professionalServices")}</Paragraph>
             <PrimaryButtonContainer>
-              <PrimaryButton to="/gallery">{t("perisotera")}</PrimaryButton>
+              <PrimaryButton to="/katia/gallery">
+                {t("perisotera")}
+              </PrimaryButton>
             </PrimaryButtonContainer>
           </HeroContent>
           <GridRow

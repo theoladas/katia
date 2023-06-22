@@ -46,7 +46,7 @@ const DropdownContent = styled.div.attrs((props) => ({
   display: ${({ open }) => (open ? "block" : "none")};
   position: absolute;
   min-width: 70px;
-  background-color: var(--color-dropdown);
+  background-color: #f1f1f1;
   border-radius: var(--border-radius-primary);
   box-shadow: var(--box-shadow-navigation);
   z-index: 1;
@@ -230,7 +230,7 @@ const Nav = () => {
       >
         <Header>
           <NavStyled className={scrolled ? "nav-shadow" : ""}>
-            <NavLink to="/" id="logo">
+            <NavLink to="/katia" id="logo">
               <img src={logo} className="logo" alt="Katia Lada logo" />
             </NavLink>
             <ul className={`nav-links${navActive ? " nav-active" : ""}`}>
@@ -243,35 +243,35 @@ const Nav = () => {
                   </ServicesDropdownButton>
                   <DropdownContent>
                     <ServicesDropdownItem
-                      to="/manicure-pedicure"
+                      to="/katia/manicure-pedicure"
                       onClick={handleNavLinkClick}
                       className="dropNavLink"
                     >
                       {t("peripoihshAkron")}
                     </ServicesDropdownItem>
                     <ServicesDropdownItem
-                      to="/make-up"
+                      to="/katia/make-up"
                       onClick={handleNavLinkClick}
                       className="dropNavLink"
                     >
                       {t("makigiaz")}
                     </ServicesDropdownItem>
                     <ServicesDropdownItem
-                      to="/waxing"
+                      to="/katia/waxing"
                       onClick={handleNavLinkClick}
                       className="dropNavLink"
                     >
                       {t("apotrixosi")}
                     </ServicesDropdownItem>
                     <ServicesDropdownItem
-                      to="/facial"
+                      to="/katia/facial"
                       onClick={handleNavLinkClick}
                       className="dropNavLink"
                     >
                       {t("peripoihshProsopou")}
                     </ServicesDropdownItem>
                     <ServicesDropdownItem
-                      to="/lashlift"
+                      to="/katia/lashlift"
                       onClick={handleNavLinkClick}
                       className="dropNavLink"
                     >
@@ -281,14 +281,14 @@ const Nav = () => {
                 </ServicesDropdownWrapper>
               </li>
               <li onClick={handleNavLinkClick}>
-                <NavLink to="/gallery">
+                <NavLink to="/katia/gallery">
                   <FontAwesomeIcon icon={faImages} className="icon" />
                   Gallery
                 </NavLink>
               </li>
 
               <li onClick={handleNavLinkClick}>
-                <NavLink to="/contact">
+                <NavLink to="/katia/contact">
                   <FontAwesomeIcon icon={faEnvelope} className="icon" />
                   {t("epikoinonia")}
                 </NavLink>

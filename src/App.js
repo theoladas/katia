@@ -25,28 +25,28 @@ function App() {
       <GlobalStyle />
       <Nav />
       <Routes>
-        <Route path="/" exact element={<Homepage />} />
+        <Route path="/katia" exact element={<Homepage />} />
       </Routes>
       <Routes>
-        <Route path="/contact" exact element={<Contact />} />
+        <Route path="/katia/contact" exact element={<Contact />} />
       </Routes>
       <Routes>
-        <Route path="/gallery" exact element={<Gallery />} />
+        <Route path="/katia/gallery" exact element={<Gallery />} />
       </Routes>
       <Routes>
-        <Route path="/make-up" exact element={<MakeUp />} />
+        <Route path="/katia/make-up" exact element={<MakeUp />} />
       </Routes>
       <Routes>
-        <Route path="/waxing" exact element={<Waxing />} />
+        <Route path="/katia/waxing" exact element={<Waxing />} />
       </Routes>
       <Routes>
-        <Route path="/facial" exact element={<Facial />} />
+        <Route path="/katia/facial" exact element={<Facial />} />
       </Routes>
       <Routes>
-        <Route path="/lashlift" exact element={<Lashlift />} />
+        <Route path="/katia/lashlift" exact element={<Lashlift />} />
       </Routes>
       <Routes>
-        <Route path="/manicure-pedicure" exact element={<Manicure />} />
+        <Route path="/katia/manicure-pedicure" exact element={<Manicure />} />
       </Routes>
       <Footer />
     </div>

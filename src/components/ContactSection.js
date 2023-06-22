@@ -183,7 +183,9 @@ export const ContactSection = ({ animate }) => {
               </ul>
             </div>
             <PrimaryButtonContainer>
-              <PrimaryButton to="/contact">{t("perisotera")}</PrimaryButton>
+              <PrimaryButton to="/katia/contact">
+                {t("perisotera")}
+              </PrimaryButton>
             </PrimaryButtonContainer>
           </ContactContent>
 

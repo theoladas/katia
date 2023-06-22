@@ -197,7 +197,9 @@ export const OurStoreSection = ({ animate }) => {
               animate="visible"
               variants={fromBottom}
             >
-              <PrimaryButton to="/contact">{t("perisotera")}</PrimaryButton>
+              <PrimaryButton to="/katia/contact">
+                {t("perisotera")}
+              </PrimaryButton>
             </PrimaryButtonContainer>
           </OurStoreContent>
         </>
