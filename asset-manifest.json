@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/katia/static/css/main.a06b4649.css",
-    "main.js": "/katia/static/js/main.fcc313a2.js",
+    "main.js": "/katia/static/js/main.01feebe1.js",
     "static/js/787.3c526432.chunk.js": "/katia/static/js/787.3c526432.chunk.js",
     "static/media/makeup.jpg": "/katia/static/media/makeup.e75ad769ac6114d1d10b.jpg",
     "static/media/magazi.png": "/katia/static/media/magazi.93e47b06f8195f103039.png",
@@ -18,11 +18,11 @@
     "static/media/email.svg": "/katia/static/media/email.66c0a2ebf194f55064910d24f67277e0.svg",
     "static/media/getFetch.cjs": "/katia/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.a06b4649.css.map": "/katia/static/css/main.a06b4649.css.map",
-    "main.fcc313a2.js.map": "/katia/static/js/main.fcc313a2.js.map",
+    "main.01feebe1.js.map": "/katia/static/js/main.01feebe1.js.map",
     "787.3c526432.chunk.js.map": "/katia/static/js/787.3c526432.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a06b4649.css",
-    "static/js/main.fcc313a2.js"
+    "static/js/main.01feebe1.js"
   ]
 }
