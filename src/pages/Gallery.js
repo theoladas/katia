@@ -41,6 +41,8 @@ const GalleryWrapper = styled.div`
     justify-content: center;
     width: 70%;
     margin: 0 auto;
+    border-radius: var(--border-radius-primary);
+    box-shadow: var(--box-shadow-components);
     @media (max-width: 1024px) {
       width: 80%;
     }
@@ -96,7 +98,7 @@ const Gallery = () => {
   const images = galleryData.images;
 
   return (
-    <HeroSection>
+    <HeroSectionStyled>
       <HeroTitleStyled>Gallery</HeroTitleStyled>
       <GalleryWrapper>
         <Carousel
@@ -116,7 +118,7 @@ const Gallery = () => {
           })}
         </Carousel>
       </GalleryWrapper>
-    </HeroSection>
+    </HeroSectionStyled>
   );
 };
 
