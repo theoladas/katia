@@ -1,47 +1,47 @@
 [
   [
-    { "src": "/katia/img/grid-1.png", "alt": "Gallery example", "delay": 0.3 },
+    { "src": "/katia/img/grid-1.jpg", "alt": "Gallery example", "delay": 0.3 },
     {
-      "src": "/katia/img/grid-6.png",
+      "src": "/katia/img/grid-2.jpg",
       "alt": "Gallery example",
       "delay": 0.4
     },
     {
-      "src": "/katia/img/grid-5.png",
+      "src": "/katia/img/grid-3.jpg",
       "alt": "Gallery example",
       "delay": 0.5
     }
   ],
   [
     {
-      "src": "/katia/img/grid-2.png",
+      "src": "/katia/img/grid-7.jpg",
       "alt": "Gallery example",
       "delay": 0.3
     },
     {
-      "src": "/katia/img/grid-4.png",
+      "src": "/katia/img/grid-9.jpg",
       "alt": "Gallery example",
       "delay": 0.4
     },
     {
-      "src": "/katia/img/grid-6.png",
+      "src": "/katia/img/grid-16.jpg",
       "alt": "Gallery example",
       "delay": 0.5
     }
   ],
   [
     {
-      "src": "/katia/img/grid-3.png",
+      "src": "/katia/img/grid-6.jpg",
       "alt": "Gallery example",
       "delay": 0.3
     },
     {
-      "src": "/katia/img/grid-5.png",
+      "src": "/katia/img/grid-5.jpg",
       "alt": "Gallery example",
       "delay": 0.4
     },
     {
-      "src": "/katia/img/grid-4.png",
+      "src": "/katia/img/grid-4.jpg",
       "alt": "Gallery example",
       "delay": 0.5
     }

@@ -1,10 +1,21 @@
 {
   "images": [
-    { "src": "./img/grid-1.png", "alt": "Grid 1" },
-    { "src": "./img/grid-2.png", "alt": "Grid 2" },
-    { "src": "./img/grid-3.png", "alt": "Grid 3" },
-    { "src": "./img/grid-4.png", "alt": "Grid 4" },
-    { "src": "./img/grid-5.png", "alt": "Grid 5" },
-    { "src": "./img/grid-6.png", "alt": "Grid 6" }
+    { "src": "./img/grid-1.jpg", "alt": "Grid 1" },
+    { "src": "./img/grid-2.jpg", "alt": "Grid 2" },
+    { "src": "./img/grid-3.jpg", "alt": "Grid 3" },
+    { "src": "./img/grid-4.jpg", "alt": "Grid 4" },
+    { "src": "./img/grid-5.jpg", "alt": "Grid 5" },
+    { "src": "./img/grid-6.jpg", "alt": "Grid 6" },
+    { "src": "./img/grid-7.jpg", "alt": "Grid 7" },
+    { "src": "./img/grid-8.jpg", "alt": "Grid 8" },
+    { "src": "./img/grid-9.jpg", "alt": "Grid 9" },
+    { "src": "./img/grid-10.jpg", "alt": "Grid 10" },
+    { "src": "./img/grid-11.jpg", "alt": "Grid 11" },
+    { "src": "./img/grid-12.jpg", "alt": "Grid 12" },
+    { "src": "./img/grid-13.jpg", "alt": "Grid 13" },
+    { "src": "./img/grid-14.jpg", "alt": "Grid 14" },
+    { "src": "./img/grid-16.jpg", "alt": "Grid 16" },
+    { "src": "./img/grid-17.jpg", "alt": "Grid 17" },
+    { "src": "./img/grid-18.jpg", "alt": "Grid 18" }
   ]
 }
