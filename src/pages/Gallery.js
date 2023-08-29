@@ -6,25 +6,25 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import galleryData from "../resources/gallery-data.json";
 
 const HeroSectionStyled = styled(HeroSection)`
-  padding: 1rem 5rem;
+  padding: 2rem 5rem 5rem 5rem;
+  @media (max-width: 650px) {
+    padding: 2rem;
+  }
 `;
 
 const HeroTitleStyled = styled(HeroTitle)`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
   padding-bottom: 2rem;
-  @media (max-width: 768px) {
-    padding-bottom: 4rem;
-  }
-  @media (max-width: 500px) {
-    padding-bottom: 2rem;
-  }
 `;
 
 const GalleryWrapper = styled.div`
-  --dot-width: 15px;
-  --dot-height: 15px;
+  --dot-width: 10px;
+  --dot-height: 10px;
+  --small-dot-width: 8px;
+  --small-dot-height: 8px;
   max-width: 50%;
   margin: 0 auto;
   @media (max-width: 1330px) {
@@ -39,29 +39,41 @@ const GalleryWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 82%;
     margin: 0 auto;
     border-radius: var(--border-radius-primary);
     box-shadow: var(--box-shadow-components);
-    @media (max-width: 1024px) {
-      width: 80%;
-    }
     @media (max-width: 768px) {
       width: 100%;
     }
   }
 
+  .carousel .thumbs-wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
   .carousel .control-next.control-arrow:before {
-    border-left: 8px solid var(--color-pink-strong);
+    border-left: 18px solid var(--color-pink-strong);
+    @media (max-width: 768px) {
+      border-left-width: 10px;
+    }
   }
 
   .carousel .control-prev.control-arrow:before {
-    border-right: 8px solid var(--color-pink-strong);
+    border-right: 18px solid var(--color-pink-strong);
+    @media (max-width: 768px) {
+      border-right-width: 10px;
+    }
   }
 
   .carousel .control-arrow {
     color: var(--color-pink-strong);
     padding: 0rem 1rem;
+    @media (max-width: 768px) {
+      padding: 0.5rem;
+    }
   }
 
   .carousel .control-dots .dot {
@@ -69,8 +81,12 @@ const GalleryWrapper = styled.div`
     width: var(--dot-width);
     height: var(--dot-height);
     @media (max-width: 768px) {
-      width: 12px;
-      height: 12px;
+      width: var(--small-dot-width);
+      height: var(--small-dot-height);
+      margin: 0rem 0.4rem;
+    }
+    @media (max-width: 480px) {
+      margin: 0rem 0.2rem;
     }
   }
 
@@ -79,18 +95,18 @@ const GalleryWrapper = styled.div`
     width: var(--dot-width);
     height: var(--dot-height);
     @media (max-width: 768px) {
-      width: 12px;
-      height: 12px;
+      width: 10px;
+      height: 10px;
     }
   }
 
   .carousel .carousel-status {
-    display: none;
+    /* display: none; */
   }
 
   .carousel .thumbs-wrapper {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
   }
 `;
 
