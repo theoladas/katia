@@ -158,12 +158,9 @@ export const HalfContainer = styled.div`
 
 export const HeroSection = styled.main`
   min-height: 90vh;
-  padding: 5rem;
+  padding: 2rem 5rem 5rem 5rem;
   @media (max-width: 768px) {
-    padding: 2rem;
-  }
-  @media (max-width: 390px) {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem 4rem 2rem;
   }
 `;
 

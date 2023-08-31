@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "./Modal";
 import {
   Flex,
   HeroTitle,
@@ -57,6 +58,7 @@ const GridColumn = styled.div`
   max-width: 25%;
   padding: 0.5rem;
   img {
+    cursor: pointer;
     margin: 1rem 0rem;
     vertical-align: middle;
     width: 100%;
@@ -76,12 +78,21 @@ const GridColumn = styled.div`
 
 export const GallerySection = ({ animate }) => {
   const { t } = useTranslation();
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const useFadeInAnimation = () => {
     return {
       hidden: { opacity: 0 },
       visible: { opacity: 1, transition: { duration: 1, ease: "easeInOut" } },
     };
+  };
+
+  const openModal = (image) => {
+    setSelectedImage(image);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
   };
 
   const fadeIn = useFadeInAnimation();
@@ -114,6 +125,7 @@ export const GallerySection = ({ animate }) => {
                   <motion.img
                     src={image.src}
                     alt={image.alt}
+                    onClick={() => openModal(image)}
                     initial={{ ...fadeIn.hidden }}
                     animate={{ ...fadeIn.visible }}
                     transition={{ delay: image.delay }}
@@ -124,6 +136,13 @@ export const GallerySection = ({ animate }) => {
             ))}
           </GridRow>
         </>
+      )}
+      {selectedImage && (
+        <Modal
+          src={selectedImage.src}
+          alt={selectedImage.alt}
+          onClose={closeModal}
+        />
       )}
     </HeroSection>
   );

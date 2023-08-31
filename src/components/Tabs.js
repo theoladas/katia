@@ -58,6 +58,9 @@ const TabContent = styled.div`
   padding: 1rem;
   border-bottom-left-radius: var(--border-radius-primary);
   border-bottom-right-radius: var(--border-radius-primary);
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `;
 
 const fadeIn = keyframes`

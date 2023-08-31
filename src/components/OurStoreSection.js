@@ -94,8 +94,8 @@ const OpenStoreHours = styled(motion.div)`
   @media (max-width: 768px) {
     font-size: 1.1rem;
   }
-  @media (max-width: 550px) {
-    font-size: 1rem;
+  @media (max-width: 400px) {
+    font-size: 0.81rem;
   }
 `;
 

@@ -144,6 +144,9 @@ const FormContainerStyled = styled(FormContainer)`
     margin-right: 0rem;
     max-width: 100%;
   }
+  @media (max-width: 768px) {
+    padding: 0;
+  }
 `;
 
 const Contact = () => {

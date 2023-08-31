@@ -5,13 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import galleryData from "../resources/gallery-data.json";
 
-const HeroSectionStyled = styled(HeroSection)`
-  padding: 2rem 5rem 5rem 5rem;
-  @media (max-width: 650px) {
-    padding: 2rem;
-  }
-`;
-
 const HeroTitleStyled = styled(HeroTitle)`
   display: flex;
   align-items: center;
@@ -114,7 +107,7 @@ const Gallery = () => {
   const images = galleryData.images;
 
   return (
-    <HeroSectionStyled>
+    <HeroSection>
       <HeroTitleStyled>Gallery</HeroTitleStyled>
       <GalleryWrapper>
         <Carousel
@@ -134,7 +127,7 @@ const Gallery = () => {
           })}
         </Carousel>
       </GalleryWrapper>
-    </HeroSectionStyled>
+    </HeroSection>
   );
 };
 

@@ -18,6 +18,9 @@ const AccordionTitle = styled.div`
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const AccordionContent = styled.div`
@@ -34,6 +37,9 @@ const AccordionContent = styled.div`
   }
   @media (max-width: 768px) {
     max-width: 100%;
+  }
+  @media (max-width: 500px) {
+    font-size: 1rem;
   }
 `;
 
